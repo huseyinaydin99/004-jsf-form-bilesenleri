@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <h:outputText value="Deneyimli Olduğunuz Alanları Seçiniz" />
+        <br/>
+        <h:selectManyCheckbox id="deneyim1" layout="pageDirection">
+            <f:selectItem id="secim1" itemValue="1" itemLabel="JavaServer Pages" />
+            <f:selectItem id="secim2" itemValue="2" itemLabel="JavaServer Faces" />
+            <f:selectItem id="secim3" itemValue="3" itemLabel="Spring" />
+            <f:selectItem id="secim4" itemValue="4" itemLabel="Hibernate" />
+        </h:selectManyCheckbox><br/>
+        <h:selectManyMenu id="deneyim2">
+            <f:selectItem id="secenek1" itemValue="1" itemLabel="JavaServer Pages" />
+            <f:selectItem id="secenek2" itemValue="2" itemLabel="JavaServer Faces" />
+            <f:selectItem id="secenek3" itemValue="3" itemLabel="Spring" />
+            <f:selectItem id="secenek4" itemValue="4" itemLabel="Hibernate" />
+        </h:selectManyMenu><br/>
+        <h:selectManyListbox id="deneyim3">
+            <f:selectItem id="seceneks1" itemValue="1" itemLabel="JavaServer Pages" />
+            <f:selectItem id="seceneks2" itemValue="2" itemLabel="JavaServer Faces" />
+            <f:selectItem id="seceneks3" itemValue="3" itemLabel="Spring" />
+            <f:selectItem id="seceneks4" itemValue="4" itemLabel="Hibernate" />
+        </h:selectManyListbox><br/>
+    </h:body>
+</html>
+
